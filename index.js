@@ -18,7 +18,7 @@ function createDomainChecker(tlds) {
 
 		const tld = labels[0];
 
-		if (!tlds.includes(tld)) {
+		if (!tlds.includes(tld.toUpperCase())) {
 			return false;
 		}
 
