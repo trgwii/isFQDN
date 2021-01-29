@@ -10,4 +10,8 @@ This project checks if a given domain is FQDN
 
 ```
 COM, NET, ORG
+//true
+
+com, net, org
+//false
 ```
